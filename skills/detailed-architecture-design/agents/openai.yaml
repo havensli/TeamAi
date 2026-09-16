@@ -1,0 +1,6 @@
+interface:
+  display_name: "详细架构设计"
+  short_description: "将概要架构转化为可开发可联调的详细设计并锁定 API 契约"
+  default_prompt: "Use $detailed-architecture-design to produce implementation-ready detailed design and API diff."
+policy:
+  allow_implicit_invocation: true
