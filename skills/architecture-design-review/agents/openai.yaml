@@ -1,0 +1,6 @@
+interface:
+  display_name: "架构设计评审"
+  short_description: "评审架构文档一致性、质量属性与阶段门禁并输出整改结论"
+  default_prompt: "Use $architecture-design-review to review architecture and detailed design documents against the standard checklist."
+policy:
+  allow_implicit_invocation: true

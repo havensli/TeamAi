@@ -1,0 +1,63 @@
+meta:
+  feature_id: ""
+  feature_name: ""
+  stage: "02-design"
+  status: "draft"
+  overview_architecture: ""
+  detailed_design: ""
+
+decision:
+  verdict: "pass_with_followups" # pass | pass_with_followups | blocked
+  rationale: []
+  blockers: []
+  followups: []
+
+conventions:
+  response_wrapper:
+    default: "Result<T>"
+    page: "Result<PageResult<T>>"
+  error_code_type: "string"
+  trace_fields: ["requestId", "traceId"]
+  transaction_boundary: "Service/Biz"
+
+contracts:
+  management_apis:
+    - id: "API-001"
+      method: "GET"
+      path: ""
+      purpose: ""
+      auth: ""
+      request:
+        query: []
+        headers: []
+        body: []
+      response:
+        wrapper: "Result<T>"
+        fields: []
+      validation_rules: []
+      idempotency:
+        required: false
+        key: ""
+      compatibility: ""
+      deprecation: ""
+
+  provider_apis: []
+
+  events:
+    - id: "EVT-001"
+      name: ""
+      topic: ""
+      producer: ""
+      consumers: []
+      schema_version: "v1"
+      delivery_semantics: "at_least_once"
+      ordering: ""
+      deduplication: ""
+      retry_and_dead_letter: ""
+
+  file_contracts: []
+
+compatibility:
+  backward_compatibility: []
+  migration_plan: []
+  data_lifecycle: []
