@@ -1,0 +1,6 @@
+interface:
+  display_name: "概要架构设计"
+  short_description: "生成标准概要架构设计并校验质量指标、评审准入与阶段边界"
+  default_prompt: "Use $overview-architecture-design to create an overview architecture design from requirements and constraints."
+policy:
+  allow_implicit_invocation: true
