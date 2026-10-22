@@ -1,25 +1,31 @@
 username: havensli
-updatedAt: 2026-10-21T03:10:25.250Z
+updatedAt: 2026-10-22T13:31:19.295Z
 skills:
   workbuddy-office-routing:
-    count: 1
-    lastUsed: 2026-10-15T13:03:12.524Z
+    count: 2
+    lastUsed: 2026-10-22T11:38:05.185Z
   workbuddy-pptx:
     count: 2
     lastUsed: 2026-10-19T03:18:02.081Z
   workbuddy-docx:
     count: 2
     lastUsed: 2026-10-20T06:19:54.277Z
+  workbuddy-sheetagent:
+    count: 1
+    lastUsed: 2026-10-22T11:38:13.294Z
+  workbuddy-local-office-edit:
+    count: 1
+    lastUsed: 2026-10-22T11:42:55.692Z
 interventions:
-  sessions: 10
+  sessions: 12
   interrupt: 0
   toolReject: 0
   correction: 1
-prompts: 194
+prompts: 225
 tokens:
-  input: 605461
-  output: 34928
-  cacheRead: 6389248
+  input: 4861173
+  output: 376721
+  cacheRead: 70685760
   cacheCreation: 0
 daily:
   2026-10-15:
@@ -45,10 +51,20 @@ daily:
   2026-10-20:
     sessionsEnded: 3
     sessionsSucceeded: 3
-    promptTurns: 29
-    durationMs: 3892642
+    promptTurns: 56
+    durationMs: 11247533
     sessionsCorrected: 0
     pricedRequests: 0
     costMicros: 0
-    cacheReadTokens: 6034432
-    cacheEligibleInputTokens: 6608267
+    cacheReadTokens: 22630528
+    cacheEligibleInputTokens: 25434898
+  2026-10-22:
+    sessionsEnded: 1
+    sessionsSucceeded: 1
+    promptTurns: 3
+    durationMs: 1853887
+    sessionsCorrected: 0
+    pricedRequests: 0
+    costMicros: 0
+    cacheReadTokens: 47700416
+    cacheEligibleInputTokens: 49725593
