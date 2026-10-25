@@ -1,5 +1,5 @@
 username: havensli
-updatedAt: 2026-10-25T11:33:21.670Z
+updatedAt: 2026-10-25T22:23:29.556Z
 skills:
   workbuddy-office-routing:
     count: 2
@@ -20,8 +20,8 @@ interventions:
   sessions: 14
   interrupt: 0
   toolReject: 0
-  correction: 8
-prompts: 362
+  correction: 13
+prompts: 442
 tokens:
   input: 5714532
   output: 497038
@@ -71,8 +71,8 @@ daily:
   2026-10-23:
     sessionsEnded: 3
     sessionsSucceeded: 2
-    promptTurns: 128
-    durationMs: 23286607
+    promptTurns: 208
+    durationMs: 37028651
     sessionsCorrected: 1
     pricedRequests: 0
     costMicros: 0
