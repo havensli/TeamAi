@@ -1,5 +1,5 @@
 username: havensli
-updatedAt: 2026-11-04T13:12:21.107Z
+updatedAt: 2026-11-05T02:57:30.852Z
 skills:
   workbuddy-office-routing:
     count: 2
@@ -20,11 +20,11 @@ skills:
     count: 1
     lastUsed: 2026-11-03T12:18:38.613Z
 interventions:
-  sessions: 63
+  sessions: 64
   interrupt: 0
   toolReject: 0
   correction: 17
-prompts: 817
+prompts: 818
 tokens:
   input: 18138040
   output: 2269966
@@ -154,7 +154,7 @@ daily:
     cacheEligibleInputTokens: 51329528
     priceVersion: litellm-2026-10-31-b264711
 attended:
-  prompts: 178
+  prompts: 179
   tokens:
     input: 7831787
     output: 1120804
@@ -224,7 +224,21 @@ attended:
       cacheEligibleInputTokens: 51329528
       priceVersion: litellm-2026-10-31-b264711
   interventions:
-    sessions: 38
+    sessions: 39
     interrupt: 0
     toolReject: 0
     correction: 1
+outcomes:
+  attended:
+    commit:
+      sessions: 1
+      tokens:
+        input: 1752841
+        output: 256991
+      interventions: 0
+    none:
+      sessions: 7
+      tokens:
+        input: 2948408
+        output: 362196
+      interventions: 0
