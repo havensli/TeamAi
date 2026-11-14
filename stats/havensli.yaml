@@ -1,5 +1,5 @@
 username: havensli
-updatedAt: 2026-11-14T07:28:37.553Z
+updatedAt: 2026-11-14T07:51:46.762Z
 skills:
   workbuddy-office-routing:
     count: 2
@@ -20,8 +20,8 @@ skills:
     count: 2
     lastUsed: 2026-11-10T08:57:02.822Z
   teamai:
-    count: 4
-    lastUsed: 2026-11-12T13:01:03.587Z
+    count: 5
+    lastUsed: 2026-11-14T07:36:13.558Z
   overview-architecture-design:
     count: 1
     lastUsed: 2026-11-12T02:07:34.186Z
@@ -32,9 +32,9 @@ interventions:
   correction: 22
 prompts: 1123
 tokens:
-  input: 69071784
-  output: 6435451
-  cacheRead: 1270199488
+  input: 69703820
+  output: 6541190
+  cacheRead: 1285682624
   cacheCreation: 0
 daily:
   2026-10-15:
@@ -179,8 +179,8 @@ daily:
     sessionsCorrected: 0
     pricedRequests: 901
     costMicros: 32133397
-    cacheReadTokens: 143702720
-    cacheEligibleInputTokens: 151853344
+    cacheReadTokens: 159185856
+    cacheEligibleInputTokens: 167968516
     priceVersion: litellm-2026-10-31-b264711
   2026-11-07:
     sessionsEnded: 1
@@ -253,8 +253,8 @@ daily:
     promptTurns: 1
     durationMs: 4088
     sessionsCorrected: 0
-    pricedRequests: 214
-    costMicros: 6026262
+    pricedRequests: 284
+    costMicros: 8691314
     cacheReadTokens: 0
     cacheEligibleInputTokens: 0
     priceVersion: litellm-2026-10-31-b264711
@@ -264,17 +264,17 @@ daily:
     promptTurns: 1
     durationMs: 5372
     sessionsCorrected: 0
-    pricedRequests: 3
-    costMicros: 343396
+    pricedRequests: 79
+    costMicros: 3054063
     cacheReadTokens: 0
     cacheEligibleInputTokens: 0
     priceVersion: litellm-2026-10-31-b264711
 attended:
   prompts: 484
   tokens:
-    input: 58765531
-    output: 5286289
-    cacheRead: 1037155264
+    input: 59397567
+    output: 5392028
+    cacheRead: 1052638400
     cacheCreation: 0
   daily:
     2026-10-23:
@@ -358,8 +358,8 @@ attended:
       sessionsCorrected: 0
       pricedRequests: 901
       costMicros: 32133397
-      cacheReadTokens: 143702720
-      cacheEligibleInputTokens: 151853344
+      cacheReadTokens: 159185856
+      cacheEligibleInputTokens: 167968516
       priceVersion: litellm-2026-10-31-b264711
     2026-11-07:
       sessionsEnded: 1
@@ -443,8 +443,8 @@ attended:
       promptTurns: 1
       durationMs: 4088
       sessionsCorrected: 0
-      pricedRequests: 214
-      costMicros: 6026262
+      pricedRequests: 284
+      costMicros: 8691314
       cacheReadTokens: 0
       cacheEligibleInputTokens: 0
       priceVersion: litellm-2026-10-31-b264711
@@ -454,8 +454,8 @@ attended:
       promptTurns: 1
       durationMs: 5372
       sessionsCorrected: 0
-      pricedRequests: 3
-      costMicros: 343396
+      pricedRequests: 79
+      costMicros: 3054063
       cacheReadTokens: 0
       cacheEligibleInputTokens: 0
       priceVersion: litellm-2026-10-31-b264711
