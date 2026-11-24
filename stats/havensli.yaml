@@ -1,5 +1,5 @@
 username: havensli
-updatedAt: 2026-11-24T13:32:42.243Z
+updatedAt: 2026-11-24T13:33:55.360Z
 skills:
   workbuddy-office-routing:
     count: 2
@@ -29,15 +29,15 @@ skills:
     count: 13
     lastUsed: 2026-11-24T11:54:35.358Z
 interventions:
-  sessions: 333
+  sessions: 334
   interrupt: 2
   toolReject: 0
   correction: 33
-prompts: 2892
+prompts: 2893
 tokens:
-  input: 185195557
-  output: 16730663
-  cacheRead: 3865187006
+  input: 185432547
+  output: 16743988
+  cacheRead: 3872083134
   cacheCreation: 8997702
 daily:
   2026-10-15:
@@ -375,19 +375,19 @@ daily:
     sessionsEnded: 53
     sessionsSucceeded: 52
     promptTurns: 379
-    durationMs: 17691608
+    durationMs: 17756426
     sessionsCorrected: 1
-    pricedRequests: 1035
-    costMicros: 74890619
-    cacheReadTokens: 238904652
-    cacheEligibleInputTokens: 242441281
+    pricedRequests: 1067
+    costMicros: 77074028
+    cacheReadTokens: 245800780
+    cacheEligibleInputTokens: 249574399
     priceVersion: litellm-2026-10-31-b264711
 attended:
   prompts: 2253
   tokens:
-    input: 174889304
-    output: 15581501
-    cacheRead: 3632142782
+    input: 175126294
+    output: 15594826
+    cacheRead: 3639038910
     cacheCreation: 8997702
   daily:
     2026-10-23:
@@ -675,12 +675,12 @@ attended:
       sessionsEnded: 53
       sessionsSucceeded: 52
       promptTurns: 379
-      durationMs: 17691608
+      durationMs: 17756426
       sessionsCorrected: 1
-      pricedRequests: 1035
-      costMicros: 74890619
-      cacheReadTokens: 238904652
-      cacheEligibleInputTokens: 242441281
+      pricedRequests: 1067
+      costMicros: 77074028
+      cacheReadTokens: 245800780
+      cacheEligibleInputTokens: 249574399
       priceVersion: litellm-2026-10-31-b264711
   interventions:
     sessions: 308
@@ -701,3 +701,15 @@ outcomes:
         input: 77159365
         output: 6405358
       interventions: 7
+unattended:
+  interventions:
+    sessions: 1
+    interrupt: 0
+    toolReject: 0
+    correction: 0
+  prompts: 1
+  tokens:
+    input: 0
+    output: 0
+    cacheRead: 0
+    cacheCreation: 0
