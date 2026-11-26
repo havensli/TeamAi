@@ -1,5 +1,5 @@
 username: havensli
-updatedAt: 2026-11-25T15:19:47.234Z
+updatedAt: 2026-11-26T00:00:38.021Z
 skills:
   workbuddy-office-routing:
     count: 2
@@ -29,15 +29,15 @@ skills:
     count: 13
     lastUsed: 2026-11-24T11:54:35.358Z
 interventions:
-  sessions: 426
+  sessions: 427
   interrupt: 2
   toolReject: 0
   correction: 35
-prompts: 3338
+prompts: 3348
 tokens:
-  input: 218218878
-  output: 19610714
-  cacheRead: 4363795112
+  input: 222309371
+  output: 19622430
+  cacheRead: 4366052648
   cacheCreation: 9244755
 daily:
   2026-10-15:
@@ -383,22 +383,22 @@ daily:
     cacheEligibleInputTokens: 350194774
     priceVersion: litellm-2026-10-31-b264711
   2026-11-25:
-    sessionsEnded: 70
-    sessionsSucceeded: 68
-    promptTurns: 265
-    durationMs: 53473231
+    sessionsEnded: 71
+    sessionsSucceeded: 69
+    promptTurns: 276
+    durationMs: 54084591
     sessionsCorrected: 2
-    pricedRequests: 1344
+    pricedRequests: 1345
     costMicros: 20248628
-    cacheReadTokens: 388322560
-    cacheEligibleInputTokens: 416136697
+    cacheReadTokens: 390580096
+    cacheEligibleInputTokens: 422484726
     priceVersion: litellm-2026-10-31-b264711
 attended:
-  prompts: 2684
+  prompts: 2694
   tokens:
-    input: 207077848
-    output: 18395213
-    cacheRead: 4126662699
+    input: 211168341
+    output: 18406929
+    cacheRead: 4128920235
     cacheCreation: 9244755
   daily:
     2026-10-23:
@@ -694,18 +694,18 @@ attended:
       cacheEligibleInputTokens: 345271808
       priceVersion: litellm-2026-10-31-b264711
     2026-11-25:
-      sessionsEnded: 70
-      sessionsSucceeded: 68
-      promptTurns: 265
-      durationMs: 53473231
+      sessionsEnded: 71
+      sessionsSucceeded: 69
+      promptTurns: 276
+      durationMs: 54084591
       sessionsCorrected: 2
-      pricedRequests: 1344
+      pricedRequests: 1345
       costMicros: 20248628
-      cacheReadTokens: 388322560
-      cacheEligibleInputTokens: 416136697
+      cacheReadTokens: 390580096
+      cacheEligibleInputTokens: 422484726
       priceVersion: litellm-2026-10-31-b264711
   interventions:
-    sessions: 386
+    sessions: 387
     interrupt: 2
     toolReject: 0
     correction: 19
@@ -718,11 +718,11 @@ outcomes:
         output: 471365
       interventions: 1
     none:
-      sessions: 298
+      sessions: 347
       tokens:
-        input: 86032583
-        output: 7568557
-      interventions: 7
+        input: 105794474
+        output: 9479084
+      interventions: 9
   unattended:
     none:
       sessions: 15
